@@ -1,0 +1,128 @@
+.pageWrapper {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e0e7ff 100%);
+  min-height: 100vh;
+  padding-bottom: 8rem;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.pageHeader {
+  padding: 4rem 2rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  color: #1e3a8a;
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #475569;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.contentWrapper {
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px -10px rgba(15, 23, 42, 0.1);
+  padding: 4rem;
+  border: 1px solid rgba(15, 23, 42, 0.05);
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.imageContainer {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.15);
+  border: 5px solid white;
+  flex-shrink: 0;
+}
+
+.authorInfo h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.5rem 0;
+}
+
+.authorInfo .role {
+  color: #dc2626;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.messageBody {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #334155;
+  position: relative;
+}
+
+.messageBody p {
+  margin-bottom: 1.5rem;
+}
+
+.quoteIcon {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  color: #f1f5f9;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.signature {
+  margin-top: 3rem;
+  font-family: 'Times New Roman', serif;
+  font-size: 2rem;
+  color: #1e3a8a;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .contentWrapper {
+    padding: 2rem;
+  }
+  .profileHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imageContainer {
+    width: 150px;
+    height: 150px;
+  }
+}

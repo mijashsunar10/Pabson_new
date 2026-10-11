@@ -1,0 +1,27 @@
+.main {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.pageHeader {
+  background-color: #1e5fae; /* PABSON Blue */
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pageHeader h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pageHeader p {
+  font-size: 1.125rem;
+  opacity: 0.9;
+}

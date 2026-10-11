@@ -1,0 +1,6 @@
+# Robots.txt for PABSON Kaski
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pabsonkaski.org.np/sitemap.xml
